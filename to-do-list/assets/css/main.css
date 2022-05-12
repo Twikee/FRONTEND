@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    border-radius: 1rem;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #9c9c9c;
+}
+
+.container{
+    margin: auto;
+    width: 60%;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li{
+    cursor: pointer;
+    position: relative;
+    padding: .6rem .4rem .6rem 2rem;
+    background-color: #d2d2d2;
+    font-size: 1.2rem;
+    transition: 0.2s;
+}
+
+ul li:nth-child(odd){
+    background-color: #c4c4c4;
+}
+
+ul li:hover{
+    background-color: rgb(169, 231, 255);
+}
+
+ul li.checked{
+    background-color: rgb(123, 255, 141);
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+
+input {
+    margin: auto;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    border: 1px solid tomato;
+    border-radius: 1rem;
+
+}
+
+h1{
+    color: tomato;
+}
+
+/*CLOSE BUTTON*/
+.close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: .6rem .8rem;
+}
+
+.close:hover{
+    background-color: #f44336;
+}
+
+/*STYLE AREA INPUT TASK*/
+#input-task{
+    display: flex;
+    flex-direction: column;
+    background-color: #d1d1d1;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    border-radius: 1rem;
+}
+
+#input-task:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+.add-btn {
+    padding: 10px;
+    width: 25%;
+    background: tomato;
+    color: #fff;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+    margin: 1rem auto;
+    border-radius: 1rem;
+  }
+  
+  .add-btn:hover {
+    background-color: #bbb;
+  }
