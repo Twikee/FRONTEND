@@ -1,0 +1,29 @@
+
+p{
+    color: #eee;
+}
+
+.accordion{
+    background-color: #eee;
+    color: #333;
+    cursor: pointer;
+    width: 100%;
+    padding: 18px;
+    margin: auto;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    border: 1px solid tomato;
+}
+
+.active, .accordion:hover{
+    background-color: tomato;
+}
+
+.panel{
+    padding: 0 18px;
+    background-color: #333;
+    display: none;
+    overflow: hidden;
+}

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    border: none;
+}
+
+body{
+    font-size: 1.2rem;
+    background-color: #ccc;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: tomato;
+    width: 40%;
+    margin: auto;
+    border-radius: .7rem;
+}
+
+input{
+    width: 60%;
+    border-radius: .7rem;
+    border: 1px dotted #333;
+    height: 1.5rem;
+    margin: 1rem;
+}
+
+#calcular{
+    padding: .5rem 1rem;
+    border-radius: .7rem;
+    border: 2px solid #666
+}
+
+#formIMC{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
