@@ -9,7 +9,6 @@ const loadImg = async() => {
     const imgCats = await responseData.json();
 
     img.src = imgCats[0].url;
-
 }
 
 

@@ -16,6 +16,9 @@ main{
     width: 40%;
     margin: auto;
     border-radius: .7rem;
+    
+    border-bottom: .4rem solid rgb(165, 64, 46);
+    border-right: .4rem solid rgb(165, 64, 46);
 }
 
 input{
